@@ -1,9 +1,6 @@
 name: Test
 on:
   workflow_dispatch:
-defaults:
-      run:
-        working-directory: 'stm32UnitTests/UnitTests'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,4 +14,4 @@ jobs:
       
         if: always()
         with:
-            files: stm32UnitTests/UnitTests/build/artifacts/test/report.xml
+            files: build/artifacts/test/report.xml
