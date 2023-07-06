@@ -1,0 +1,37 @@
+!SESSION 2023-07-05 17:19:56.906 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_CA
+Framework arguments:  C:\Users\Charles Henri\Desktop\UnitTests\Blinky\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Charles Henri\Desktop\UnitTests\Blinky\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-07-05 17:20:28.268
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-07-05 17:20:28.283
+!MESSAGE Log4j2 initialized with config file C:\Users\Charles Henri\Desktop\UnitTests\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-07-05 17:20:31.008
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-07-05 17:20:37.809
+!MESSAGE Indexed 'Blinky' (23 sources, 116 headers) in 4,33 sec: 11 728 declarations; 48 138 references; 7 unresolved inclusions; 1 281 syntax errors; 2 370 unresolved names (3,8 %)
+!SESSION 2023-07-05 19:41:30.340 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-07-05 19:41:39.692
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-07-05 19:41:39.693
+!MESSAGE Log4j2 initialized with config file C:\Users\Charles Henri\Desktop\UnitTests\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-07-05 19:41:45.316
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-07-05 21:16:51.445
+!MESSAGE Indexed 'stm32UnitTests' (55 sources, 160 headers) in 6,14 sec: 19 166 declarations; 118 684 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0,12 %)

@@ -1,0 +1,21 @@
+19:42:36 **** Incremental Build of configuration Debug for project Blinky ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/action.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/action.d" -MT"Src/action.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/action.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+In file included from ../Src/action.c:1:
+../Inc/action.h:4:10: fatal error: stdint: No such file or directory
+    4 | #include <stdint>
+      |          ^~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:37: Src/action.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Src/main.c:24:
+../Inc/action.h:4:10: fatal error: stdint: No such file or directory
+    4 | #include <stdint>
+      |          ^~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:37: Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+19:42:36 Build Failed. 5 errors, 0 warnings. (took 373ms)
+
