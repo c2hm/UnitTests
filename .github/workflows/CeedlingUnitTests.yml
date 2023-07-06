@@ -1,9 +1,8 @@
 name: Test
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'stm32UnitTests/UnitTests'
+  paths:
+    - 'stm32UnitTests/UnitTests'
 
 jobs:
   build:
