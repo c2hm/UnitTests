@@ -17,4 +17,4 @@ jobs:
       
         if: always()
         with:
-            files: build/artifacts/test/report.xml
+            files: stm32UnitTests/UnitTests/build/artifacts/test/report.xml
